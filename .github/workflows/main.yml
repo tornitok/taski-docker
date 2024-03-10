@@ -75,8 +75,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Set up nodeJS
       - uses: actions/checkout@v3
+      - name: Set up nodeJS
         uses: actions/setup-node@v3
         with:
           node-version: 18
